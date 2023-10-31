@@ -23,7 +23,7 @@ public class SafeInput {
                     validInput = true;
                 } else {
                     pipe.next(); // Clear invalid input
-                    System.out.println("Invalid input. Please enter an integer.");
+                    System.out.println("Invalid input. Please Try again.");
                 }
             }
             return result;
